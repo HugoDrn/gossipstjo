@@ -1,0 +1,33 @@
+.setting-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}
+.setting-item {
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.setting-button {
+    height: 50px;
+    padding-right: 100%;
+    padding-left: 40px;
+    border: 0px solid #ffffff;
+    background-color: #ffffff;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.setting-button i {
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+.setting-button:hover {
+    background-color: #482ff7;
+    color: #fefefe;
+
+}
